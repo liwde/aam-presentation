@@ -1,0 +1,19 @@
+{
+  "name": "aam-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "serve": "light-server -s . -w **",
+    "deploy": "gh-pages -d . -s \"{{md,node_modules/reveal.js/**}/*,index.html,.nojekyll}\""
+  },
+  "author": "Lukas Heimann",
+  "private": true,
+  "dependencies": {
+    "reveal.js": "^3.8.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "light-server": "^2.6.3"
+  }
+}
