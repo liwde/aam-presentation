@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="node_modules/reveal.js/css/theme/simple.css">
+		<link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement('link');
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'node_modules/reveal.js/lib/css/print/pdf.css' : 'node_modules/reveal.js/lib/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<title>Aam Digital Präsentation</title>
+	</head>
+	<body>
+		<div class="reveal">
+
+<!--CONTENT STARTS HERE-->
+			<div class="slides">
+				<section>
+					<h1>Aam Digital</h1>
+					<h4>Social work needs time for families, not paperwork</h4>
+				</section>
+				<section>
+					<h1>Meta</h1>
+				</section>
+				<section>
+					<h2>Code</h2>
+					<pre><code class="hljs" data-trim data-line-numbers="3,4">
+					import React, { useState } from 'react';
+						
+					function Example() {
+						const [count, setCount] = useState(0);
+						
+						return (
+						<div>
+							<p>You clicked {count} times</p>
+							<button onClick={() => setCount(count + 1)}>
+							Click me
+							</button>
+						</div>
+						);
+					}
+					</code></pre>
+				</section>
+				<section>
+					<h2>Speaker Notes</h2>
+					Kann man mit <code>S</code> anzeigen
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+					</aside>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## Slides in Markdown
+
+						- Can also be included from a `md`-file
+						- Find more information [here](https://github.com/hakimel/reveal.js#markdown)
+						- Multiple pages in one markdown-element via `---`
+
+						Notes:
+						Das hier taucht in den Speaker Notes auf
+					</textarea>
+				</section>
+				<section>
+					<h1>Echte Präsentation</h1>
+				</section>
+				<section data-markdown="md/01projekt.md" data-separator-vertical="^\r?\n----\r?\n$"></section>
+				<section data-background-iframe="https://demo.aam-digital.com" data-background-interactive></section>
+				<section data-markdown="md/02software.md" data-separator-vertical="^\r?\n----\r?\n$"></section>
+				<section data-markdown="md/03entwicklung.md" data-separator-vertical="^\r?\n----\r?\n$"></section>
+				<section data-markdown="md/04ausblick.md" data-separator-vertical="^\r?\n----\r?\n$"></section>
+			</div>
+<!--CONTENT ENDS HERE-->
+
+
+		</div>
+		<script src="node_modules/reveal.js/js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				mouseWheel: true,
+				dependencies: [
+					// Interpret Markdown in <section> elements
+					{ src: 'node_modules/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'node_modules/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+					// Syntax highlight for <code> elements
+					{ src: 'node_modules/reveal.js/plugin/highlight/highlight.js', async: true },
+
+					// Zoom in and out with Alt+click
+					{ src: 'node_modules/reveal.js/plugin/zoom-js/zoom.js', async: true },
+
+					// Speaker notes
+					{ src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true },
+
+					// MathJax
+					{ src: 'node_modules/reveal.js/plugin/math/math.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
