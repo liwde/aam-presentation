@@ -8,12 +8,13 @@
 		<link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
 		<link rel="stylesheet" href="node_modules/reveal.js/css/theme/simple.css">
 		<link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+		<link rel="stylesheet" href="style.css">
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement('link');
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'node_modules/reveal.js/lib/css/print/pdf.css' : 'node_modules/reveal.js/lib/css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'node_modules/reveal.js/css/print/pdf.css' : 'node_modules/reveal.js/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 		<title>Aam Digital Präsentation</title>
@@ -26,51 +27,6 @@
 				<section>
 					<h1>Aam Digital</h1>
 					<h4>Social work needs time for families, not paperwork</h4>
-				</section>
-				<section>
-					<h1>Meta</h1>
-				</section>
-				<section>
-					<h2>Code</h2>
-					<pre><code class="hljs" data-trim data-line-numbers="3,4">
-					import React, { useState } from 'react';
-						
-					function Example() {
-						const [count, setCount] = useState(0);
-						
-						return (
-						<div>
-							<p>You clicked {count} times</p>
-							<button onClick={() => setCount(count + 1)}>
-							Click me
-							</button>
-						</div>
-						);
-					}
-					</code></pre>
-				</section>
-				<section>
-					<h2>Speaker Notes</h2>
-					Kann man mit <code>S</code> anzeigen
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
-					</aside>
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-						## Slides in Markdown
-
-						- Can also be included from a `md`-file
-						- Find more information [here](https://github.com/hakimel/reveal.js#markdown)
-						- Multiple pages in one markdown-element via `---`
-
-						Notes:
-						Das hier taucht in den Speaker Notes auf
-					</textarea>
-				</section>
-				<section>
-					<h1>Echte Präsentation</h1>
 				</section>
 				<section data-markdown="md/01projekt.md" data-separator-vertical="^\r?\n----\r?\n$"></section>
 				<section data-background-iframe="https://demo.aam-digital.com" data-background-interactive></section>
@@ -87,9 +43,36 @@
 			Reveal.initialize({
 				hash: true,
 				mouseWheel: true,
+				markdown: { smartypants: true },
 				dependencies: [
 					// Interpret Markdown in <section> elements
-					{ src: 'node_modules/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{
+						src: 'node_modules/reveal.js/plugin/markdown/marked.js',
+						condition: function() { return !!document.querySelector( '[data-markdown]' ); },
+						callback: function() {
+							// monkey-patch InlineLexer to have German SmartyPants
+							marked.InlineLexer.prototype.smartypants = function(text) {
+								if (!this.options.smartypants) return text;
+								return text
+									// em-dashes
+									.replace(/---/g, '\u2014')
+									// en-dashes
+									.replace(/--/g, '\u2013')
+									// apostrophe
+									.replace(/(\w)'(\w)/g, '$1’$2')
+									// opening singles
+									.replace(/(^|[-\u2014/(\[{"\s])'/g, '$1 ‚')
+									// closing singles
+									.replace(/'/g, '‘')
+									// opening doubles
+									.replace(/(^|[-\u2014/(\[{\u2018\s])"/g, '$1 „')
+									// closing doubles
+									.replace(/"/g, '“')
+									// ellipses
+									.replace(/\.{3}/g, '\u2026');
+								};
+						}
+					},
 					{ src: 'node_modules/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 
 					// Syntax highlight for <code> elements

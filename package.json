@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "serve": "light-server -s . -w **",
-    "deploy": "gh-pages -d . -s \"{{md,node_modules/reveal.js/**}/*,index.html,.nojekyll}\""
+    "deploy": "gh-pages -d . -s \"{{img,md,node_modules/reveal.js/**}/*,index.html,.nojekyll,style.css}\""
   },
   "author": "Lukas Heimann",
   "private": true,
