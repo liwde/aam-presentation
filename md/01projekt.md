@@ -14,31 +14,16 @@
 <tr style="font-size: 15px;"><td>Erfolgreich umgesetzte Projekte</td><td>Aktive Mitglieder<br>Größte Hochschulgruppe KIT</td><td>Aktuell laufende Projekte</td></tr>
 </table>
 
-Notes:
-Notizen
-
 ---
 
-## Unsere Vision
+### Unsere Vision
 
 Unser Ziel ist es, mit **_Menschen_** in wirtschaftlich, sozial oder politisch benachteiligten
 Regionen durch die Realisierung von Ingenieurprojekten neue  **_Perspektiven_**
  zu schaffen, indem wir ihren individuellen Herausforderungen mit **_nachhaltigen
  Lösungen_** begegnen. 
 
----
-
-## Meilensteine
-
-- 2004: Gründung in Folge der Tsunamikatastrophe im indischen Ozean 
-- 2005: Soforthilfe für Katastrophenopfer in Sri Lanka als erstes EWB-Projekt 
-- 2006: Gründung der ersten Ableger Gruppen Indien und Uganda  
-- 2007: Eintragung in das Vereinsregister
-- 2015: 10-jähriges Jubiläum 
-
----
-
-## Unsere Mission
+### Unsere Mission
 
 Studenten sollen ihre Fähigkeiten **_praktisch_** und **_sinnvoll_** einsetzen und
  für eine **_globale Denkweise_** sensibilisiert werden.
