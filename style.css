@@ -9,5 +9,12 @@
     margin: 15px 0px;
     background: none;
     border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: none;
+}
+
+body { /* https://github.com/hakimel/reveal.js/issues/566 */
+    background-image: url('img/karte.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
