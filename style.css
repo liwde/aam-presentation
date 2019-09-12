@@ -36,3 +36,9 @@ body { /* https://github.com/hakimel/reveal.js/issues/566 */
     font-weight: bold;
 }
 
+.reveal img.icon {
+    margin: 0;
+    vertical-align: middle;
+    width: 80px;
+}
+
