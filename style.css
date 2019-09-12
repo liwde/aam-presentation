@@ -18,3 +18,21 @@ body { /* https://github.com/hakimel/reveal.js/issues/566 */
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.reveal {
+    font-size: 30px !important;
+}
+
+.reveal table.clear, .reveal table.clear tr, .reveal table.clear td {
+    border: none;
+}
+.reveal table.centered td {
+    text-align: center;
+}
+.reveal table.padded td {
+    padding: 0 30px;
+}
+.reveal table.first_bold tr td:nth-child(1) {
+    font-weight: bold;
+}
+
