@@ -1,5 +1,33 @@
 # Meetup-Präsentation für Aam Digital
 
+## Inhaltliche Grobstruktur
+
+- Vorstellung EWB, Aam-Digital
+    - Projektvorstellung wie bei startsocial (Ziele, soziales Problem das angegangen wird, etc.)
+- Demo der App:
+	- funktionale Requirements (Dashboard, Liste, Kind erstellen, bearbeiten, Nodes, Attendance Register, Schulen ...)
+- Wie haben wir das gemacht?
+	- Besonderheiten (Warum nicht Excel?)
+	- Architektur Overview
+Themensammlung:
+	- Responsive Design (flex design)
+	- EntityMapper Schema Service
+	- Session ähnlich GDF
+	- Attendance Register als Anwendung
+- Entwicklungsprozess
+	- Erkenntnisse aus unsere Arbeitsweise (einmal die Woche, Kontakt nach Indien)
+	- Coding Day
+	- Vergleich zu Scrum
+- Ausblick
+
+## Commit-Strategie
+
+Für so ein kleines Projekt halte ich nicht viel von Branches. Checkt es aus und arbeitet direkt auf dem master. Commited auch Zwischenstände. Pusht zeitnah. Stellt am besten auf Rebasing um, damit es beim gemeinsamen Arbeiten auch nur einen Branch gibt:
+
+```
+git config branch.master.rebase true
+```
+
 ## Anleitung für das Template
 
 ### Getting Started
