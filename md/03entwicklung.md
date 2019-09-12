@@ -1,2 +1,2 @@
-# Entwicklungsprozess
-### und Lessons Learned
+# Entwicklungs-prozess
+### ...und Lessons Learned

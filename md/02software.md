@@ -16,9 +16,34 @@
 
 ----
 
-### Session-Management in Depth
+### State
 
-Mit 4 Strichen kann man horizontal Slides machen.
+![Session State](img/session_state.png)
+
+----
+
+### Classes
+
+![Session Classes](img/session_classes.png)
+
+----
+
+### Code
+
+```ts
+public login(username: string, password: string): Promise<LoginState> {
+    const localLogin =  this._localSession.login(username, password);
+    const remoteLogin = this._remoteSession.login(username, password);
+    remoteLogin.then(async (connectionState: ConnectionState) => {
+        // remote connected -- sync!
+        if (connectionState === ConnectionState.connected) {
+            const syncPromise = this.sync();
+            // no liveSync() here, as we can't know when that's finished if there are no changes.
+            // ...
+        }
+    });
+}
+```
 
 ---
 
