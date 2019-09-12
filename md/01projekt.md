@@ -21,5 +21,19 @@ Notizen
 
 ## Aam Digital
 
-- a
-- b
+<table class="clear first_bold">
+<tr>
+    <td>Vision</td>
+    <td>Cloud Services für kleinere NGOs</td>
+</tr>
+<tr>
+    <td>Projekt</td>
+    <td>Partner: H.E.L.G.O. e.V. in Kolkata, Indien<br>Betreuung von Kindern – gegen Kinderarbeit, für Bildung<br>App zur Verwaltung von betreuten Kindern</td>
+</tr>
+    <td>Status</td>
+    <td>Seit August 2018 im Einsatz</td>
+</tr>
+</table>
+
+Notes:
+Up next: Demo!
