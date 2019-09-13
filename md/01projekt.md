@@ -35,7 +35,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 
 ## Referenzprojekte
 
-<table class="clear centered patted">
+<table class="clear centered padded">
     <tr>
         <td><img src="img/Logo-Wasserhahn.png" class="icon"> Trinkwasser</td>
         <td><img src="img/Icon-Sanitaer.png" class="icon">Sanitär</td>
@@ -57,7 +57,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 
 ## Referenzprojekte
 
-<table class="clear centered patted">
+<table class="clear centered padded">
     <tr>
         <td><img src="img/Icon-Wirtschaft.png" class="icon"> Wirtschaft</td>
         <td><img src="img/Icon-Infrastruktur.png" class="icon">Infrastruktur</td>
