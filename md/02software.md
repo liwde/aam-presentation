@@ -4,6 +4,23 @@
 
 ## Warum nicht Excel?
 
+Note: Come On, es ist Excel... macht so sau kein Bock damit zu arbeiten, außer man ist fresher Consultant bei KPMG
+
+----
+
+### Beispiel 
+
+<img src="img/Excell_Beispiel_Anonymisiert.PNG">
+
+----
+
+<ul>
+    <li>Beschänkte Funktionalität</li>
+    <li>Paralleles Pflegen mehrer Listen</li>
+    <li>Zugriffsprobleme und Versionierungsfrage bei verteiltem Zugriff</li>
+    <li>Es ist Excell!</li>
+</ul>
+
 ---
 
 ## Architektur-Überblick
