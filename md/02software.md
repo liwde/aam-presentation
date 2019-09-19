@@ -52,6 +52,18 @@ public login(username: string, password: string): Promise<LoginState> {
 - EntityMapperService <!-- .element: class="fragment" data-fragment-index="1" -->
 - EntitySchemaService <!-- .element: class="fragment" data-fragment-index="2" -->
 
+----
+
+### The Entity Model
+
+![Entity Model](img/entity_relation.png)
+
+----
+
+### OR-Mapping / Entity-Document-Mapping
+
+![OR-Mapping](img/or_mapping.png)
+
 ---
 
 ## Repsonsive Design
