@@ -64,11 +64,18 @@ Note:
     </tr>
 </table>
 
-----
+---
 
 ## Session-Management
 
-- PouchDB
+TODO: Ich würde das hier gerne hinter den OR-Mapper verschieben.\
+Da ist es sinnvoller, weil ich in Teilen darauf aufbaue
+
+Note:
+- Verteiltes System
+- Datenbank CouchDB -- synchronisiert
+- --> Wie stellen wir da jetzt sicher, dass die Session stabil ist?
+- Erste Frage: Wie sehen denn da die Zustände aus?
 
 ----
 
@@ -76,30 +83,22 @@ Note:
 
 ![Session State](img/session_state.png)
 
-----
+Notes:
+3 separate Status:
+- `LoginState`: Unabhängig von Netzwerk: "Bin ich eingeloggt?"
+- `ConnectionState`: Wie ist die Verbindung zur entfernten Datenbank?
+- `SyncState`: Wie ist die Synchronisation?
 
-### Classes
+----
 
 ![Session Classes](img/session_classes.png)
 
-----
-
-### Code
-
-```ts
-public login(username: string, password: string): Promise<LoginState> {
-    const localLogin =  this._localSession.login(username, password);
-    const remoteLogin = this._remoteSession.login(username, password);
-    remoteLogin.then(async (connectionState: ConnectionState) => {
-        // remote connected -- sync!
-        if (connectionState === ConnectionState.connected) {
-            const syncPromise = this.sync();
-            // no liveSync() here, as we can't know when that's finished if there are no changes.
-            // ...
-        }
-    });
-}
-```
+Notes:
+- Oben: Entities aus dem OR Mapper
+- Session: In zwei Bestandteile gespalten
+- Datenbank per Provider aus der Session
+- Das coole: Anderer Provider --> andere Session --> andere Datenbank --> Mockdaten!
+- Mehr Details: Code! Gut dokumentiert, wie das asynchron gehandhabt wird
 
 ---
 
