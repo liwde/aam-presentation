@@ -64,6 +64,8 @@ Note:
     </tr>
 </table>
 
+----
+
 ## Session-Management
 
 - PouchDB
