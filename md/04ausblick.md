@@ -12,5 +12,6 @@
 
 ## Code auf Github
 
-https://github.com/Aam-Digital/ndb-core
+<img src="img/Octocat.png" class="icon">
 
+https://github.com/Aam-Digital/ndb-core
