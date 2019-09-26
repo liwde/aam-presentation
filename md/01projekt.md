@@ -35,7 +35,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 
 ## Referenzprojekte
 
-<table class="clear centered patted">
+<table class="clear centered padded">
     <tr>
         <td><img src="img/Logo-Wasserhahn.png" class="icon"> Trinkwasser</td>
         <td><img src="img/Icon-Sanitaer.png" class="icon">Sanitär</td>
@@ -57,7 +57,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 
 ## Referenzprojekte
 
-<table class="clear centered patted">
+<table class="clear centered padded">
     <tr>
         <td><img src="img/Icon-Wirtschaft.png" class="icon"> Wirtschaft</td>
         <td><img src="img/Icon-Infrastruktur.png" class="icon">Infrastruktur</td>
@@ -89,6 +89,47 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
     <td>Status</td>
     <td>Seit August 2018 im Einsatz</td>
 </tr>
+</table>
+
+----
+
+### HELGO e.V.
+
+- **_H_**elp for **_E_**ducation and **_L_**ife **_G_**uide **_O_**rganisation
+- **1994** gegründet für aktives Vorgehen gegen Kinderarbeit
+- Finanzielle und materielle **Unterstützung** für Familien, die auf Einkommen der Kinder angewiesen sind
+- Betreuter und **nachhaltiger Weg** aus Armutsverhältnissen
+- **Standorte**: Kalkutta und Howrah
+
+Notes:
+Es gibt ungefähr 20 Millionen arbeitende Kinder in Indien. 
+Der Weg ist nicht, Kinder einfach aus ihren Arbeitsstätten zu vertreiben -> Lebensgrundlage für Familie entzogen, Finanzielle Kompensation nötig
+
+----
+
+### Impressionen
+
+![Sozialarbeiter](img/Sozialarbeiter1.png)
+
+Notes:
+Impressionen Sozialarbeiter
+
+----
+
+### Ziel
+
+<table class="clear centered padded">
+     <tr>
+        <td><img src="img/Sozialarbeiter2.png" height="400px"></td>
+        <td><div style="
+            border-top: 60px solid transparent;
+            border-bottom: 60px solid transparent;
+            border-left: 60px solid black;
+            width: 0;
+            height: 0;"
+            ></div</td>
+        <td><img src="img/Coaching2.jpg" height="400px"></td>
+     </tr>
 </table>
 
 Notes:

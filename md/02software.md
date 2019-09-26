@@ -1,8 +1,30 @@
 # Die Software
 
+Notes:
+- Wir sahen: Wie kann so eine Software aussehen
+- Jetzt: Warum ist es so, wie es ist?
+- Und: Wie haben wir das angestellt?
+
 ---
 
 ## Warum nicht Excel?
+
+Note: Come On, es ist Excel... macht so sau kein Bock damit zu arbeiten, außer man ist fresher Consultant bei KPMG
+
+----
+
+![Symbolbild Pflege in Excel](img/Excell_Beispiel_Anonymisiert.PNG)
+
+----
+
+- Beschränkte Funktionalität <!-- .element: class="bigger" -->
+- Paralleles Pflegen mehrerer Listen <!-- .element: class="bigger fragment" -->
+- Zugriffsprobleme und Versionierungsfrage <!-- .element: class="bigger fragment" -->
+- Es ist Excel! <!-- .element: class="huge bold fragment" -->
+
+Note:
+- Zugriff und Versionierung: Insbesondere bei verteiltem Zugriff
+- Daher: Andere Architektur nötig! Und die kommt jetzt.
 
 ---
 
@@ -51,6 +73,18 @@ public login(username: string, password: string): Promise<LoginState> {
 
 - EntityMapperService <!-- .element: class="fragment" data-fragment-index="1" -->
 - EntitySchemaService <!-- .element: class="fragment" data-fragment-index="2" -->
+
+----
+
+### The Entity Model
+
+![Entity Model](img/entity_relation.png)
+
+----
+
+### OR-Mapping / Entity-Document-Mapping
+
+![OR-Mapping](img/or_mapping.png)
 
 ---
 
