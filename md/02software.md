@@ -1,5 +1,10 @@
 # Die Software
 
+Notes:
+- Wir sahen: Wie kann so eine Software aussehen
+- Jetzt: Warum ist es so, wie es ist?
+- Und: Wie haben wir das angestellt?
+
 ---
 
 ## Warum nicht Excel?
@@ -8,18 +13,18 @@ Note: Come On, es ist Excel... macht so sau kein Bock damit zu arbeiten, außer 
 
 ----
 
-### Beispiel 
-
-<img src="img/Excell_Beispiel_Anonymisiert.PNG">
+![Symbolbild Pflege in Excel](img/Excell_Beispiel_Anonymisiert.PNG)
 
 ----
 
-<ul>
-    <li>Beschänkte Funktionalität</li>
-    <li>Paralleles Pflegen mehrer Listen</li>
-    <li>Zugriffsprobleme und Versionierungsfrage bei verteiltem Zugriff</li>
-    <li>Es ist Excell!</li>
-</ul>
+- Beschränkte Funktionalität <!-- .element: class="bigger" -->
+- Paralleles Pflegen mehrerer Listen <!-- .element: class="bigger fragment" -->
+- Zugriffsprobleme und Versionierungsfrage <!-- .element: class="bigger fragment" -->
+- Es ist Excel! <!-- .element: class="huge bold fragment" -->
+
+Note:
+- Zugriff und Versionierung: Insbesondere bei verteiltem Zugriff
+- Daher: Andere Architektur nötig! Und die kommt jetzt.
 
 ---
 
