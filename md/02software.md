@@ -25,6 +25,41 @@ Note: Come On, es ist Excel... macht so sau kein Bock damit zu arbeiten, außer 
 
 ## Architektur-Überblick
 
+----
+
+### TecStack Backend
+
+<table class="clear centered padded">
+    <tr>
+        <td><img src="img/nodejs_logo.png" height="200px"></td>
+        <td><img src="img/couchdb_logo.png" height="200px"></td>
+        <td><img src="img/pouchdb_logo.svg" height="200px"></td>
+    </tr>
+    <tr style="font-size: 10px">
+        <td>Node.js</td>
+        <td>CouchDB</td>
+        <td>PouchDB</td>
+    </tr>
+</table>
+
+----
+
+### TecStack Frontend
+
+<table class="clear centered padded">
+    <tr>
+        <td><img src="img/html_logo.png" height="200px"></td>
+        <td><img src="img/css_logo.svg" height="200px"></td>
+        <td><img src="img/angular_logo.svg" height="200px"></td>
+    </tr>
+    <tr style="font-size: 10px">
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>ANGULAR</td>
+    </tr>
+</table>
+
+
 ---
 
 ## Session-Management
