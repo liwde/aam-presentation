@@ -8,13 +8,14 @@ Note: Come On, es ist Excel... macht so sau kein Bock damit zu arbeiten, außer 
 
 ----
 
-### Beispiel 
-
 <img src="img/Excell_Beispiel_Anonymisiert.PNG">
+Beispiel für eine benutzte Excell Datei
 
 ----
 
-<ul>
+### Schwachstellen Excel
+
+<ul style="font-size: 20px">
     <li>Beschänkte Funktionalität</li>
     <li>Paralleles Pflegen mehrer Listen</li>
     <li>Zugriffsprobleme und Versionierungsfrage bei verteiltem Zugriff</li>
