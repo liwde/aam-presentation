@@ -66,10 +66,28 @@ Note:
 
 ---
 
-## Session-Management
+## OR-Mapping
 
-TODO: Ich würde das hier gerne hinter den OR-Mapper verschieben.\
-Da ist es sinnvoller, weil ich in Teilen darauf aufbaue
+- EntityMapperService <!-- .element: class="fragment" data-fragment-index="1" -->
+- EntitySchemaService <!-- .element: class="fragment" data-fragment-index="2" -->
+
+----
+
+### The Entity Model
+
+![Entity Model](img/entity_relation.png)
+
+----
+
+### OR-Mapping / Entity-Document-Mapping
+
+![OR-Mapping](img/or_mapping.png)
+
+---
+
+## Session-Management
+- Offlinefähiger Login
+- Synchronisierte Datenhaltung
 
 Note:
 - Verteiltes System
@@ -99,25 +117,6 @@ Notes:
 - Datenbank per Provider aus der Session
 - Das coole: Anderer Provider --> andere Session --> andere Datenbank --> Mockdaten!
 - Mehr Details: Code! Gut dokumentiert, wie das asynchron gehandhabt wird
-
----
-
-## OR-Mapping
-
-- EntityMapperService <!-- .element: class="fragment" data-fragment-index="1" -->
-- EntitySchemaService <!-- .element: class="fragment" data-fragment-index="2" -->
-
-----
-
-### The Entity Model
-
-![Entity Model](img/entity_relation.png)
-
-----
-
-### OR-Mapping / Entity-Document-Mapping
-
-![OR-Mapping](img/or_mapping.png)
 
 ---
 
