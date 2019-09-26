@@ -126,8 +126,14 @@ Notes:
 - Flex Design
 - Breakpoints & Listener
 
+Notes:
+Demo after Attendance Register
+
 ---
 
 ## Attendance Register
 
 Eine einfache Wizard-Anwendung die alles kombiniert
+
+Notes:
+Demo time!
