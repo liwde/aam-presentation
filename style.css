@@ -32,7 +32,7 @@ body { /* https://github.com/hakimel/reveal.js/issues/566 */
 .reveal table.padded td {
     padding: 0 30px;
 }
-.reveal table.first_bold tr td:nth-child(1) {
+.reveal table.first_bold tr td:nth-child(1), .reveal .bold {
     font-weight: bold;
 }
 
@@ -42,3 +42,9 @@ body { /* https://github.com/hakimel/reveal.js/issues/566 */
     width: 80px;
 }
 
+.reveal .bigger {
+    font-size: 40px !important;
+}
+.reveal .huge {
+    font-size: 60px !important;
+}
