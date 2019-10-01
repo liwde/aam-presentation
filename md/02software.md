@@ -81,12 +81,56 @@ public login(username: string, password: string): Promise<LoginState> {
 
 ![OR-Mapping](img/or_mapping.png)
 
+----
+
+### Example Entity with Decorators
+
+```ts
+@DatabaseEntity('Child')
+export class Child extends Entity {
+
+    @DatabaseField() name: string;
+    @DatabaseField() projectNumber: string;
+    @DatabaseField({dataType: 'string'}) gender: Gender;
+    @DatabaseField() dateOfBirth: Date;
+    @DatabaseField() motherTongue = '';
+    @DatabaseField() religion = '';
+```
+
+----
+
+### OR-Mapping / Entity-Document-Mapping
+
+```ts
+public async save<T extends Entity>(entity: T, forceUpdate: boolean = false): Promise<any> {
+    const rawData = this.entitySchemaService.transformEntityToDatabaseFormat(entity);
+    const result = await this._db.put(rawData, forceUpdate);
+    if (result.ok) {
+        entity._rev = result.rev;
+    }
+    return result;
+}
+```
+
 ---
 
 ## Repsonsive Design
 
 - Flex Design
 - Breakpoints & Listener
+
+----
+
+### OR-Mapping / Entity-Document-Mapping
+
+
+<table class="clear centered padded">
+    <tr>
+        <td><img src="img/details_on_screen.png" class="icon"> Trinkwasser</td>
+        <td><img src="img/details_on_phone.png" class="icon">Sanitär</td>
+    </tr>  
+</table>
+
 
 ---
 
