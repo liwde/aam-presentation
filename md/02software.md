@@ -170,6 +170,46 @@ Notes:
 - Flex Design
 - Breakpoints & Listener
 
+----
+
+```html
+<div fxLayout='row' fxLayout.xs='column wrap'
+ fxLayout.md='column wrap' fxLayout.sm='column wrap'>
+        <div fxFlex='160px'>
+          <img [src]="child.getPhoto()" class="child-pic" alt="child's photo">
+          <br>
+          <mat-form-field *ngIf="creatingNew || editing" class='photo-filename'>
+            <input matInput formControlName="photoFile"
+             placeholder="Photo File Name" title="photoFile" type="text" >
+          </mat-form-field>
+        </div>
+
+
+
+        <div fxFlex>
+          <mat-form-field style='width: 300px;'>
+            <input matInput formControlName="name"
+             placeholder="Name" title="name" type="text">
+          </mat-form-field>
+        </div>
+</div>
+```
+
+----
+
+```ts
+  flexMediaWatcher: Subscription;
+
+  constructor(private media: MediaObserver) {
+    this.flexMediaWatcher = this.media.media$.subscribe((change: MediaChange) => {
+      if (change.mqAlias !== this.screenWidth) {
+        this.screenWidth = change.mqAlias;
+        this.setupTable();
+      }
+    });
+  }
+```
+
 Notes:
 Demo after Attendance Register
 
