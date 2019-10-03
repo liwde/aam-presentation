@@ -156,6 +156,13 @@ Notes:
 - Das coole: Anderer Provider --> andere Session --> andere Datenbank --> Mockdaten!
 - Mehr Details: Code! Gut dokumentiert, wie das asynchron gehandhabt wird
 
+----
+
+![Session Flow](img/session_flow.svg)
+
+Notes:
+- So sieht ein erfolgreicher Login dann aus
+
 ---
 
 ## Repsonsive Design
