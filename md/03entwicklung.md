@@ -16,9 +16,8 @@ Notes:
 
 ---
 
-## GitHub
+![GitHub IssueBoard](img/github_issues.png)
 
-(Screenshot issueboard)
 
 Notes:
 - Bugs werden von jedem in Issues festgehalten
@@ -36,7 +35,10 @@ Notes:
 - Scrum-Artifakte fehlen (Sprint Planning, Review, ...)
 - Erfordert wesentlich aktivere Kommunikation, um Blocker usw. zu finden
 - Aber das klappt halbwegs!
+
 ---
+
+<!-- .slide: class="bigger" -->
 
 ## Herausforderungen
 
@@ -53,6 +55,8 @@ Notes:
 - wenige und nur kurze Phasen im "Flow" --> Coding Day!
 
 ---
+
+<!-- .slide: class="bigger" -->
 
 ## Coding Day
 

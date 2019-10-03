@@ -32,44 +32,45 @@ Note:
 
 ----
 
-### TecStack Backend
+### Requirements
+
+- plattformunabhängig <!-- .element: class="fragment" -->
+- offlinefähig <!-- .element: class="fragment" -->
+- einfache Benutzbarkeit <!-- .element: class="fragment" -->
+
+----
+
+### Technologie
 
 <table class="clear centered padded">
     <tr>
-        <td><img src="img/nodejs_logo.png" height="200px"></td>
-        <td><img src="img/couchdb_logo.png" height="200px"></td>
-        <td><img src="img/pouchdb_logo.svg" height="200px"></td>
+        <td><img src="img/docker.png" height="200px" class="fragment" data-fragment-index="5"></td>
+        <td><img src="img/couchdb_logo.png" height="200px" class="fragment" data-fragment-index="3"></td>
+        <td><img src="img/pouchdb_logo.svg" height="200px" class="fragment" data-fragment-index="4"></td>
     </tr>
-    <tr style="font-size: 10px">
-        <td>Node.js</td>
-        <td>CouchDB</td>
-        <td>PouchDB</td>
+    <tr>
+        <td><img src="img/html_logo.png" height="200px" class="fragment" data-fragment-index="1"></td>
+        <td><img src="img/css_logo.svg" height="200px" class="fragment" data-fragment-index="1"></td>
+        <td><img src="img/angular_logo.svg" height="200px" class="fragment" data-fragment-index="2"></td>
     </tr>
 </table>
 
 ----
 
-### TecStack Frontend
+<!-- .slide: class="bigger" -->
 
-<table class="clear centered padded">
-    <tr>
-        <td><img src="img/html_logo.png" height="200px"></td>
-        <td><img src="img/css_logo.svg" height="200px"></td>
-        <td><img src="img/angular_logo.svg" height="200px"></td>
-    </tr>
-    <tr style="font-size: 10px">
-        <td>HTML</td>
-        <td>CSS</td>
-        <td>ANGULAR</td>
-    </tr>
-</table>
+### Funktionen
+
+- Zentralisiertes Datenmanagement
+- Einfacher Informationsaustausch
+- Monitoring-Dashboard
 
 ---
 
 ## OR-Mapping
 
-- EntityMapperService <!-- .element: class="fragment" data-fragment-index="1" -->
-- EntitySchemaService <!-- .element: class="fragment" data-fragment-index="2" -->
+- EntityMapperService
+- EntitySchemaService
 
 ----
 
@@ -159,6 +160,10 @@ Notes:
 Notes:
 Demo after Attendance Register
 
+----
+
+<!-- .slide: data-background-iframe="https://demo.aam-digital.com" data-background-interactive -->
+
 ---
 
 ## Attendance Register
@@ -167,3 +172,7 @@ Eine einfache Wizard-Anwendung die alles kombiniert
 
 Notes:
 Demo time!
+
+----
+
+<!-- .slide: data-background-iframe="https://demo.aam-digital.com" data-background-interactive -->

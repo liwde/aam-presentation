@@ -2,6 +2,8 @@
 
 ---
 
+<!-- .slide: class="bigger" -->
+
 ## Wie geht es weiter?
 
 - Kontakt zu weiteren NGOs herstellen
@@ -11,6 +13,7 @@
 Notes:
 - Software auch für andere Gruppen interessant --> NGO Sozialarbeiter in DE
 - Vision der Cloud-Lösung für NGOs
+- UX: Erstellen von Widgets im Dashboard
 
 ---
 
@@ -41,3 +44,9 @@ Notes:
 <img src="img/Octocat.png" class="icon">
 
 https://github.com/Aam-Digital/ndb-core
+
+<hr>
+
+Aam-digital@ewb-Karlsruhe.de
+
+https://ewb-karlsruhe.de/aam-digital/

@@ -91,7 +91,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 </tr>
 </table>
 
-----
+---
 
 ### HELGO e.V.
 
@@ -105,7 +105,7 @@ Notes:
 Es gibt ungefähr 20 Millionen arbeitende Kinder in Indien.
 Der Weg ist nicht, Kinder einfach aus ihren Arbeitsstätten zu vertreiben -> Lebensgrundlage für Familie entzogen, Finanzielle Kompensation nötig
 
-----
+---
 
 ### Impressionen
 
@@ -114,7 +114,7 @@ Der Weg ist nicht, Kinder einfach aus ihren Arbeitsstätten zu vertreiben -> Leb
 Notes:
 Impressionen Sozialarbeiter
 
-----
+---
 
 ### Ziel
 
