@@ -98,6 +98,9 @@ export class Child extends Entity {
     @DatabaseField() dateOfBirth: Date;
     @DatabaseField() motherTongue = '';
     @DatabaseField() religion = '';
+
+    //...
+}
 ```
 
 ----
@@ -105,7 +108,10 @@ export class Child extends Entity {
 ### OR-Mapping / Entity-Document-Mapping
 
 ```ts
-public async save<T extends Entity>(entity: T, forceUpdate: boolean = false): Promise<any> {
+public async save<T extends Entity>(
+    entity: T,
+    forceUpdate: boolean = false
+): Promise<any> {
     const rawData = this.entitySchemaService.transformEntityToDatabaseFormat(entity);
     const result = await this._db.put(rawData, forceUpdate);
     if (result.ok) {
