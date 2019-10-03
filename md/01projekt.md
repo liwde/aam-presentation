@@ -1,3 +1,13 @@
+## Agenda
+
+1. Das Projekt <!-- .element: class="bigger fragment" -->
+2. Die Software <!-- .element: class="bigger fragment" -->
+3. Entwicklungsprozess & Lessons Learned <!-- .element: class="bigger fragment" -->
+4. Ausblick <!-- .element: class="bigger fragment" -->
+
+
+---
+
 ## Engineers Without Borders
 
 <table class="clear first_bold">
