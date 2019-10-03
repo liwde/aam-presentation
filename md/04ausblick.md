@@ -42,3 +42,9 @@ Notes:
 <img src="img/Octocat.png" class="icon">
 
 https://github.com/Aam-Digital/ndb-core
+
+<hr>
+
+Aam-digital@ewb-Karlsruhe.de
+
+https://ewb-karlsruhe.de/aam-digital/
