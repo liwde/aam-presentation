@@ -45,8 +45,4 @@ Notes:
 
 https://github.com/Aam-Digital/ndb-core
 
-<hr>
-
-Aam-digital@ewb-Karlsruhe.de
-
-https://ewb-karlsruhe.de/aam-digital/
+<span style="font-size: 15pt;">aam-digital@ewb-Karlsruhe.de &middot; https://ewb-karlsruhe.de/aam-digital/</span>

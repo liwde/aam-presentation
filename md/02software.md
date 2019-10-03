@@ -98,6 +98,9 @@ export class Child extends Entity {
     @DatabaseField() dateOfBirth: Date;
     @DatabaseField() motherTongue = '';
     @DatabaseField() religion = '';
+
+    //...
+}
 ```
 
 ----
@@ -105,7 +108,10 @@ export class Child extends Entity {
 ### OR-Mapping / Entity-Document-Mapping
 
 ```ts
-public async save<T extends Entity>(entity: T, forceUpdate: boolean = false): Promise<any> {
+public async save<T extends Entity>(
+    entity: T,
+    forceUpdate: boolean = false
+): Promise<any> {
     const rawData = this.entitySchemaService.transformEntityToDatabaseFormat(entity);
     const result = await this._db.put(rawData, forceUpdate);
     if (result.ok) {
@@ -150,12 +156,59 @@ Notes:
 - Das coole: Anderer Provider --> andere Session --> andere Datenbank --> Mockdaten!
 - Mehr Details: Code! Gut dokumentiert, wie das asynchron gehandhabt wird
 
+----
+
+![Session Flow](img/session_flow.svg)
+
+Notes:
+- So sieht ein erfolgreicher Login dann aus
+
 ---
 
 ## Repsonsive Design
 
 - Flex Design
 - Breakpoints & Listener
+
+----
+
+```html
+<div fxLayout='row' fxLayout.xs='column wrap'
+ fxLayout.md='column wrap' fxLayout.sm='column wrap'>
+        <div fxFlex='160px'>
+          <img [src]="child.getPhoto()" class="child-pic" alt="child's photo">
+          <br>
+          <mat-form-field *ngIf="creatingNew || editing" class='photo-filename'>
+            <input matInput formControlName="photoFile"
+             placeholder="Photo File Name" title="photoFile" type="text" >
+          </mat-form-field>
+        </div>
+
+
+
+        <div fxFlex>
+          <mat-form-field style='width: 300px;'>
+            <input matInput formControlName="name"
+             placeholder="Name" title="name" type="text">
+          </mat-form-field>
+        </div>
+</div>
+```
+
+----
+
+```ts
+  flexMediaWatcher: Subscription;
+
+  constructor(private media: MediaObserver) {
+    this.flexMediaWatcher = this.media.media$.subscribe((change: MediaChange) => {
+      if (change.mqAlias !== this.screenWidth) {
+        this.screenWidth = change.mqAlias;
+        this.setupTable();
+      }
+    });
+  }
+```
 
 Notes:
 Demo after Attendance Register
