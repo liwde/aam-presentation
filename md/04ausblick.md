@@ -11,6 +11,7 @@
 Notes:
 - Software auch für andere Gruppen interessant --> NGO Sozialarbeiter in DE
 - Vision der Cloud-Lösung für NGOs
+- UX: Erstellen von Widgets im Dashboard
 
 ---
 
