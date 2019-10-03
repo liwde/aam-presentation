@@ -2,6 +2,8 @@
 
 ---
 
+<!-- .slide: class="bigger" -->
+
 ## Wie geht es weiter?
 
 - Kontakt zu weiteren NGOs herstellen
