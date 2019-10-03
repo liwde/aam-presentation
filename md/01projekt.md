@@ -21,7 +21,7 @@
 Unser Ziel ist es, mit **_Menschen_** in wirtschaftlich, sozial oder politisch benachteiligten
 Regionen durch die Realisierung von Ingenieurprojekten neue  **_Perspektiven_**
  zu schaffen, indem wir ihren individuellen Herausforderungen mit **_nachhaltigen
- Lösungen_** begegnen. 
+ Lösungen_** begegnen.
 
 ### Unsere Mission
 
@@ -30,7 +30,7 @@ Studenten sollen ihre Fähigkeiten **_praktisch_** und **_sinnvoll_** einsetzen 
 
 Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausch_**
  und Zusammenarbeit **_auf Augenhöhe_** geprägt sind.
-  
+
 ---
 
 ## Referenzprojekte
@@ -50,7 +50,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
          <td>2014: Zisternenbau MEVA School, Haiti</td>
          <td>2015: Sanitärkomplex Iyolwa School, Uganda</td>
          <td>2013: Solaranlage Kigarama, Ruanda</td>
-      </tr>   
+      </tr>
 </table>
 
 ---
@@ -69,7 +69,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
      <tr style="font-size: 15px">
          <td>2015: Papadam Bakery, Sri Lanka</td>
          <td>2013: Loku Palama Brücke, Sri Lanka</td>
-     </tr>   
+     </tr>
 </table>
 
 
@@ -102,7 +102,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 - **Standorte**: Kalkutta und Howrah
 
 Notes:
-Es gibt ungefähr 20 Millionen arbeitende Kinder in Indien. 
+Es gibt ungefähr 20 Millionen arbeitende Kinder in Indien.
 Der Weg ist nicht, Kinder einfach aus ihren Arbeitsstätten zu vertreiben -> Lebensgrundlage für Familie entzogen, Finanzielle Kompensation nötig
 
 ----
