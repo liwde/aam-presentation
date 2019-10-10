@@ -32,6 +32,7 @@ Note:
 
 ----
 
+<!-- .slide: class="bigger" -->
 ### Requirements
 
 - plattformunabhängig <!-- .element: class="fragment" -->
@@ -39,6 +40,8 @@ Note:
 - einfache Benutzbarkeit <!-- .element: class="fragment" -->
 
 ----
+
+<!-- .slide: class="bigger" -->
 
 ### Technologie
 
@@ -64,6 +67,10 @@ Note:
 - Zentralisiertes Datenmanagement
 - Einfacher Informationsaustausch
 - Monitoring-Dashboard
+
+ Note:
+- Als nächstes DEMO! 
+
 
 ---
 
