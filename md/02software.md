@@ -76,17 +76,20 @@ Note:
 - EntityMapperService
 - EntitySchemaService
 
+Notes:
+
+- EntityMapperService sorgt für Kommunikation mit der echten Datenbank
+- EntitySchemaService besitzt informationen über die Transformation von Datenbank-Dokumenten zu Objecten
+
 ----
 
 ### The Entity Model
 
 ![Entity Model](img/entity_relation.png)
 
-----
-
-### OR-Mapping / Entity-Document-Mapping
-
-![OR-Mapping](img/or_mapping.png)
+Notes:
+- Oberklasse Entity
+- zusätzliche Datenbankinfos im Schema gespeichert (Datentyp, Array, etc.)
 
 ----
 
@@ -107,6 +110,21 @@ export class Child extends Entity {
 }
 ```
 
+Notes:
+- Decoratoren zur Definition von Datenbank-Objekten
+- Teilweise auslesen von Datentyp aus TypeScript Metadaten und manueller Definition (bsp. Gender)
+
+----
+
+### OR-Mapping / Entity-Document-Mapping
+
+![OR-Mapping](img/or_mapping.png)
+
+Notes:
+- EntityMapperService abstrahiert die Datenbank und Schema-Definitionen
+- Datenbank kann zwischen Mock und Normaler einfach getauscht werden
+- SchemaService nutzt SchemaDatatypes für typ-spezifische Transfomation von Entity zu Datenbank
+
 ----
 
 ### OR-Mapping / Entity-Document-Mapping
@@ -124,6 +142,10 @@ public async save<T extends Entity>(
     return result;
 }
 ```
+
+Notes:
+- EntityMapper nutzt SchemaService um beim speichern aus einer Entity ein speicherbares Datenbankobjekt zu erstellen
+- Bei Erfolg lokale Revisionsnummer updaten
 
 ---
 
