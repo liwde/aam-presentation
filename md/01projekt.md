@@ -85,7 +85,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 
 ---
 
-## Aam Digital
+## Aam-Digital
 
 <table class="clear first_bold">
 <tr>
@@ -104,7 +104,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 ---
 
 ### H.E.L.G.O. e.V.
-
+    
 - **_H_**elp for **_E_**ducation and **_L_**ife **_G_**uide **_O_**rganisation
 - **1994** gegründet für aktives Vorgehen gegen Kinderarbeit
 - Finanzielle und materielle **Unterstützung** für Familien, die auf Einkommen der Kinder angewiesen sind

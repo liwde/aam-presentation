@@ -65,6 +65,8 @@ Note:
 - Einfacher Informationsaustausch
 - Monitoring-Dashboard
 
+ Note:
+ Als nächstes DEMO! 
 ---
 
 <!-- .slide: data-background-iframe="https://demo.aam-digital.com" data-background-interactive -->
