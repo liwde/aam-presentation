@@ -1,3 +1,13 @@
+## Agenda
+
+1. Das Projekt <!-- .element: class="bigger fragment" -->
+2. Die Software <!-- .element: class="bigger fragment" -->
+3. Entwicklungsprozess & Lessons Learned <!-- .element: class="bigger fragment" -->
+4. Ausblick <!-- .element: class="bigger fragment" -->
+
+
+---
+
 ## Engineers Without Borders
 
 <table class="clear first_bold">
@@ -84,7 +94,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 </tr>
 <tr>
     <td>Projekt</td>
-    <td>Partner: H.E.L.G.O. e.V. in Kolkata, Indien<br>Betreuung von Kindern – gegen Kinderarbeit, für Bildung<br>App zur Verwaltung von betreuten Kindern</td>
+    <td>Partner: H.E.L.G.O. e.V. in Kalkutta, Indien<br>Betreuung von Kindern – gegen Kinderarbeit, für Bildung<br>App zur Verwaltung von betreuten Kindern</td>
 </tr>
     <td>Status</td>
     <td>Seit August 2018 im Einsatz</td>
@@ -93,7 +103,7 @@ Es sollen Verbindungen geschaffen werden, die durch **_interkulturellen Austausc
 
 ---
 
-### HELGO e.V.
+### H.E.L.G.O. e.V.
 
 - **_H_**elp for **_E_**ducation and **_L_**ife **_G_**uide **_O_**rganisation
 - **1994** gegründet für aktives Vorgehen gegen Kinderarbeit
@@ -133,4 +143,4 @@ Impressionen Sozialarbeiter
 </table>
 
 Notes:
-Up next: Demo!
+Up next: Warum nicht Excel?
